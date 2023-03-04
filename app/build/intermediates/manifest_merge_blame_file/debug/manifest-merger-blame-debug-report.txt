@@ -1,0 +1,249 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2021 The Android Open Source Project.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.dogglers"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="32" />
+24-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:25:22-69
+27
+28    <application
+28-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:19:5-89:19
+29        android:allowBackup="true"
+29-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:20:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] C:\Users\naval\.gradle\caches\transforms-3\d74790584bae0cea2d51bcc395f377d5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:21:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:22:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:23:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:24:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.Dogglers" >
+37-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:25:9-46
+38        <activity android:name="com.example.dogglers.VerticalListActivity" >
+38-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:28:9-32:20
+38-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:28:19-55
+39            <meta-data
+39-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:29:13-31:49
+40                android:name="android.support.PARENT_ACTIVITY"
+40-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:30:17-63
+41                android:value=".MainActivity" />
+41-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:31:17-46
+42        </activity>
+43        <activity android:name="com.example.dogglers.VerticalListActivity2" >
+43-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:33:9-37:20
+43-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:33:19-56
+44            <meta-data
+44-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:29:13-31:49
+45                android:name="android.support.PARENT_ACTIVITY"
+45-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:30:17-63
+46                android:value=".MainActivity" />
+46-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:31:17-46
+47        </activity>
+48        <activity android:name="com.example.dogglers.HorizontalListActivity" >
+48-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:40:9-44:20
+48-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:40:19-57
+49            <meta-data
+49-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:29:13-31:49
+50                android:name="android.support.PARENT_ACTIVITY"
+50-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:30:17-63
+51                android:value=".MainActivity" />
+51-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:31:17-46
+52        </activity>
+53        <activity android:name="com.example.dogglers.HorizontalListActivity2" >
+53-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:45:9-49:20
+53-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:45:19-58
+54            <meta-data
+54-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:29:13-31:49
+55                android:name="android.support.PARENT_ACTIVITY"
+55-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:30:17-63
+56                android:value=".MainActivity" />
+56-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:31:17-46
+57        </activity>
+58        <activity android:name="com.example.dogglers.GridListActivity" >
+58-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:52:9-56:20
+58-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:52:19-51
+59            <meta-data
+59-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:29:13-31:49
+60                android:name="android.support.PARENT_ACTIVITY"
+60-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:30:17-63
+61                android:value=".MainActivity" />
+61-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:31:17-46
+62        </activity>
+63        <activity android:name="com.example.dogglers.GridListActivity2" >
+63-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:57:9-61:20
+63-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:57:19-52
+64            <meta-data
+64-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:29:13-31:49
+65                android:name="android.support.PARENT_ACTIVITY"
+65-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:30:17-63
+66                android:value=".MainActivity" />
+66-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:31:17-46
+67        </activity>
+68        <activity
+68-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:64:9-71:20
+69            android:name="com.example.dogglers.MainActivity"
+69-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:64:19-47
+70            android:exported="true" >
+70-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:65:13-36
+71            <intent-filter>
+71-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:66:13-70:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:17-69
+72-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:69:17-77
+74-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:69:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:72:9-79:20
+78            android:name="com.example.dogglers.MainActivity2"
+78-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:72:19-48
+79            android:exported="true" >
+79-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:73:13-36
+80            <intent-filter>
+80-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:66:13-70:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:17-69
+81-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:69:17-77
+83-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:69:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:80:9-87:20
+87            android:name="com.example.dogglers.MainActivity3"
+87-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:80:19-48
+88            android:exported="true" >
+88-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:81:13-36
+89            <intent-filter>
+89-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:66:13-70:29
+90                <action android:name="android.intent.action.MAIN" />
+90-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:17-69
+90-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:25-66
+91
+92                <category android:name="android.intent.category.LAUNCHER" />
+92-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:69:17-77
+92-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:69:27-74
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:28:9-37:20
+96            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+96-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:29:13-96
+97            android:exported="true"
+97-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:30:13-36
+98            android:multiprocess="true"
+98-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:31:13-40
+99            android:taskAffinity=""
+99-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:32:13-36
+100            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+100-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:33:13-78
+101            <intent-filter>
+101-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+102                <action android:name="android.intent.action.MAIN" />
+102-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:17-69
+102-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:25-66
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+106            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+106-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+107            android:exported="true"
+107-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+108            android:theme="@android:style/Theme" >
+108-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+109            <intent-filter>
+109-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+110                <action android:name="android.intent.action.MAIN" />
+110-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:17-69
+110-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:25-66
+111            </intent-filter>
+112        </activity>
+113        <activity
+113-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+114            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+114-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+115            android:exported="true"
+115-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+116            android:theme="@android:style/Theme" >
+116-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+117            <intent-filter>
+117-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+118                <action android:name="android.intent.action.MAIN" />
+118-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:17-69
+118-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:25-66
+119            </intent-filter>
+120        </activity>
+121        <activity
+121-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+122            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+122-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+123            android:exported="true"
+123-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+124            android:theme="@android:style/Theme.Dialog" >
+124-->[androidx.test:core:1.4.0] C:\Users\naval\.gradle\caches\transforms-3\ebc3a10366a9ef6485c84f01a2f3fdbd\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+125            <intent-filter>
+125-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\naval\.gradle\caches\transforms-3\3d0d4277027101448c0f918ef261c3df\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+126                <action android:name="android.intent.action.MAIN" />
+126-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:17-69
+126-->C:\Users\naval\Desktop\DogCats\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:67:25-66
+127            </intent-filter>
+128        </activity>
+129
+130        <provider
+130-->[androidx.emoji2:emoji2:1.0.0] C:\Users\naval\.gradle\caches\transforms-3\442f13b96d1d07d30d361c0d3b05e15e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+131            android:name="androidx.startup.InitializationProvider"
+131-->[androidx.emoji2:emoji2:1.0.0] C:\Users\naval\.gradle\caches\transforms-3\442f13b96d1d07d30d361c0d3b05e15e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+132            android:authorities="com.example.dogglers.androidx-startup"
+132-->[androidx.emoji2:emoji2:1.0.0] C:\Users\naval\.gradle\caches\transforms-3\442f13b96d1d07d30d361c0d3b05e15e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+133            android:exported="false" >
+133-->[androidx.emoji2:emoji2:1.0.0] C:\Users\naval\.gradle\caches\transforms-3\442f13b96d1d07d30d361c0d3b05e15e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+134            <meta-data
+134-->[androidx.emoji2:emoji2:1.0.0] C:\Users\naval\.gradle\caches\transforms-3\442f13b96d1d07d30d361c0d3b05e15e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+135                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+135-->[androidx.emoji2:emoji2:1.0.0] C:\Users\naval\.gradle\caches\transforms-3\442f13b96d1d07d30d361c0d3b05e15e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+136                android:value="androidx.startup" />
+136-->[androidx.emoji2:emoji2:1.0.0] C:\Users\naval\.gradle\caches\transforms-3\442f13b96d1d07d30d361c0d3b05e15e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+137            <meta-data
+137-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\naval\.gradle\caches\transforms-3\8568f1de326e5e592641116e16fae369\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+138                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+138-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\naval\.gradle\caches\transforms-3\8568f1de326e5e592641116e16fae369\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+139                android:value="androidx.startup" />
+139-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\naval\.gradle\caches\transforms-3\8568f1de326e5e592641116e16fae369\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+140        </provider>
+141    </application>
+142
+143</manifest>
